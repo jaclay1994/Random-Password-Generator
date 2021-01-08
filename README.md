@@ -11,3 +11,12 @@ variable that will determine the values used in the password. I could have defin
 activity. I believe if I could pull the value from the prompt that asks for the number of characters and multiple that by the loop, then I might have something that functions at least as a basic password generate. I would like work on this some more to see if I can get it to work or even see where I went wrong and what I am missing. 
 
 I will definitely need to do more research on attributes and javascript functions. 
+
+
+## Github Links
+
+#Website
+https://jaclay1994.github.io/Random-Password-Generator/
+
+#Github Profile
+https://github.com/jaclay1994/Random-Password-Generator

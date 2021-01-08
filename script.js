@@ -5,10 +5,9 @@ var passwordText = document.querySelector("#password")
 
 
 //Variables
+var length = 32
 var charset = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWUXYZ1234567890 !#$%&'()*+,-./:;<=>?@[\]^_`{|}~"
 var passwordGen = ""
-
-//Password Function only generates one character at a time.`-\*_*/-`
 function writePassword() {
   var passwordLength = prompt("How many characters do you want in this passord? (8 to 128 characters)")
   if (passwordLength < 8 || passwordLength > 128) {
@@ -47,26 +46,16 @@ function writePassword() {
 
   }
 
-//Text generator
+//Password Text is passed in box.
   var password = generatePassword();
   passwordText.value = password;
 
 }
-
-//Random Character Selector
 function generatePassword() {
 
   for (var i = 0, n = charset.length; i < length; ++i ) {
     passwordGen += charset.charAt(Math.floor(Math.random()* n));
     return passwordGen
-  }
-}
-
-function finalPasswordLength() {
-
-  for (var i = 8, n = passwordLength.value; i < value; ++i) {
-    passwordLength.value * generatePassword
-    return generatePassword
   }
 }
 
